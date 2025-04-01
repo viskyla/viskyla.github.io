@@ -39,4 +39,4 @@ const header = `
         </ul>
     </div>
 `;
-document.querySelector("header").insertAdjacentHTML("afterbegin", header);
+document.querySelector("head").insertAdjacentHTML("afterbegin", header);
