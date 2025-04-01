@@ -9,6 +9,7 @@ const header = `
     	*{
         	margin: 0;
             padding: 0;
+            text-align: center;
             font-family: andy;
         }
 
@@ -47,13 +48,24 @@ const header = `
         .navbar li:last-child{
             float:right;
         }
+
+        ul{
+            list-style-type: none;
+        }
+
+        img{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 50%;
+        }
     </style>
     <div class="navbar">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Portfolio</a></li>
             <li><a href="">Projets</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="ccool">About</a></li>
         </ul>
     </div>
 `;
