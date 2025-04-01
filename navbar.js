@@ -60,6 +60,10 @@ const header = `
             width: 50%;
         }
     </style>
+
+    <title>Viskyla</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
     <div class="navbar">
         <ul>
             <li><a href="/">Home</a></li>
