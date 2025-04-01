@@ -69,6 +69,7 @@ const header = `
             <li><a href="/">Home</a></li>
             <li><a href="/Portfolio">Portfolio</a></li>
             <li><a href="/Projets">Projets</a></li>
+            <li><a href="/Blog">Blog</a></li>
             <li><a href="/About">About</a></li>
         </ul>
     </div>
