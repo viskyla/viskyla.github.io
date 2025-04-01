@@ -62,10 +62,10 @@ const header = `
     </style>
     <div class="navbar">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Projets</a></li>
-            <li><a href="ccool">About</a></li>
+            <li><a href="~">Home</a></li>
+            <li><a href="~">Portfolio</a></li>
+            <li><a href="~">Projets</a></li>
+            <li><a href="~/About">About</a></li>
         </ul>
     </div>
 `;
