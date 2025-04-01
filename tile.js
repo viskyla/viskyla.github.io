@@ -24,8 +24,8 @@ const tile = `
         </style>
 
         <section class="tilecontainer">
-                <a class="tile" href="scoobydoo.html">
-                        <h2>T1 super cool</h2>
+                <a class="tile" href="">
+                        <h2>Not real</h2>
                         <p>
                         Pleepo plopo lorem ipsum afoij dsaoifjsa fisadjf<br>
                         soidfj saoidjf oidsa jfoisad jf<br>
@@ -34,16 +34,11 @@ const tile = `
                         asdsadsa<br>
                         dsadads<br>
                         </p>
-                </a>
-                <a class="tile" href="scoobydoo.html">
-                        <h2>T1 super cool</h2>
+                </a>        
+                <a class="tile" href="firstpost.html">
+                        <h2>The first post!</h2>
                         <p>
-                        Pleepo plopo lorem ipsum afoij dsaoifjsa fisadjf<br>
-                        soidfj saoidjf oidsa jfoisad jf<br>
-                        dsasda<br>
-                        sdasd<br>
-                        asdsadsa<br>
-                        dsadads<br>
+                        This post talks about where I'll be and what to expect.<br>
                         </p>
                 </a>
         </section>
