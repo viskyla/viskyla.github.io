@@ -4,6 +4,9 @@ const header = `
         	margin: 0;
             padding: 0;
         }
+
+
+            
         .navbar{
             background-color: #333;
             overflow: hidden;
@@ -36,4 +39,4 @@ const header = `
         </ul>
     </div>
 `;
-document.querySelector("body").insertAdjacentHTML("afterbegin", header);
+document.querySelector("header").insertAdjacentHTML("afterbegin", header);
