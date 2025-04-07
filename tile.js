@@ -24,15 +24,10 @@ const tile = `
         </style>
 
         <section class="tilecontainer">
-                <a class="tile" href="">
-                        <h2>Not real</h2>
+                <a class="tile" href="imback.html">
+                        <h2>I'M BACK!!!</h2>
                         <p>
-                        Pleepo plopo lorem ipsum afoij dsaoifjsa fisadjf<br>
-                        soidfj saoidjf oidsa jfoisad jf<br>
-                        dsasda<br>
-                        sdasd<br>
-                        asdsadsa<br>
-                        dsadads<br>
+                            This post emphasizes the fact that Viskyla is back. For some reason she is really excited about that fact.
                         </p>
                 </a>        
                 <a class="tile" href="firstpost.html">
