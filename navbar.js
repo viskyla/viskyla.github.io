@@ -140,14 +140,14 @@ const header = `
         
         .links img{
         	margin:10px;
-        	height: 50px;
-            width: 50px;
+        	height: 25px;
+            width: 25px;
             float:left;
             transition: transform 0.3s ease-in-out;
 		}
 
         .links img:hover{
-            transform: scale(1.04);
+            transform: scale(1.1);
         }
     </style>
 
