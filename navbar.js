@@ -23,7 +23,7 @@ const header = `
             background-color: #222;
             position: -webkit-sticky;
             position: sticky;
-            overflow: hidden;
+            overflow: visible;
         }
 
         .navbar a{
@@ -90,7 +90,7 @@ const header = `
     <title>Viskyla</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-    <div class="navbar">
+    <section class="navbar">
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/Portfolio">Portfolio</a></li>
@@ -98,6 +98,6 @@ const header = `
             <li><a href="/Blog">Blog</a></li>
             <li><a href="/About">About</a></li>
         </ul>
-    </div>
+    </section>
 `;
 document.querySelector("head").insertAdjacentHTML("afterend", header);
