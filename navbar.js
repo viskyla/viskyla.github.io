@@ -31,11 +31,13 @@ const header = `
             text-align: center;
             text-decoration: none;
             font-size: 17px;
+            transition: transform 0.3s ease-in-out;
         }
 
         .navbar a:hover{
             background-color: #444;
             color: #ffffa6;
+            transform: skeyY(20deg);
         }
 
         .navbar ul {
