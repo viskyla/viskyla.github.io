@@ -1,9 +1,14 @@
 const header = `
-    <style>
+   <style>
 
         @font-face {
             font-family: andy;
             src: url(/ANDYB.TTF);
+        }
+        
+        :root{
+        	--primary:#1f1f21ff;
+            --secondary:#f2f2f2;
         }
 
     	*{
@@ -12,18 +17,15 @@ const header = `
             text-align: center;
             font-family: andy;
             color: #f2f2f2;
-
-            --primary:#1f1f21ff;
-            --secondary:#f2f2f2;
         }
 
         body{
             padding: 10px;
-            background-color:var(--primary);
+            background-color:#0f0f11ff;
         }
             
         .navbar{
-            background-color: var(--secondary);
+            background-color: var(--primary);
             position: -webkit-sticky;
             position: sticky;
             height: 40px;
