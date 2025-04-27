@@ -45,10 +45,6 @@ const header = `
             transition: transform 0.3s ease-in-out;
         }
 
-        a{
-            transition: transform 0.3s ease-in-out;
-        }
-
         a:hover{
             color: var(--secondaryHover);
             transform: translateY(2px);
@@ -132,6 +128,22 @@ const header = `
         .dropdown:hover .dropdown-content{
             display:block;
         }
+
+        .links{
+        	position:absolute;
+        	left:auto;
+			right:25px;
+            bottom:25px;
+            list-style-type: none;
+            list-style: none;
+        }
+        
+        .links img{
+        	margin:10px;
+        	height: 50px;
+            width: 50px;
+            float:left;
+		}
     </style>
 
     <title>Viskyla</title>
@@ -151,5 +163,16 @@ const header = `
             <li><a href="/About">About</a></li>
         </ul>
     </div>
+
+    
+    <section class="links">
+        <a href="https://github.com/viskylas-stu">
+          <img src="/Assets/github.png">
+        </a>
+
+        <a href="https://github.com/viskyla">
+          <img src="/Assets/github.png">
+        </a>
+    </section>
 `;
 document.querySelector("head").insertAdjacentHTML("afterend", header);
