@@ -143,7 +143,12 @@ const header = `
         	height: 50px;
             width: 50px;
             float:left;
+            transition: transform 0.3s ease-in-out;
 		}
+
+        .links img:hover{
+            transform: scale(1.04);
+        }
     </style>
 
     <title>Viskyla</title>
