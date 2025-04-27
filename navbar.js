@@ -6,17 +6,15 @@ const header = `
             src: url(/ANDYB.TTF);
         }
 
-        :root{
-            --primary:#0f0f11ff
-            --secondary:#1f1f21ff
-        }
-
     	*{
         	margin: 0;
             padding: 0;
             text-align: center;
             font-family: andy;
             color: #f2f2f2;
+
+            --primary:#1f1f21ff;
+            --secondary:#f2f2f2;
         }
 
         body{
