@@ -41,6 +41,7 @@ const header = `
 
         .navbar ul {
             list-style-type: none;
+            overflow: hidden;
             background-color: #222;
             position: -webkit-sticky;
             position: sticky;
