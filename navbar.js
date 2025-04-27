@@ -64,12 +64,15 @@ const header = `
 
         .tilecontainer {
             padding: 50;
-            display: grid;
-            grid-template-columns: 25% 25% 25% 25%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
             gap: 20px;
         }
 
         .tile {
+            flex: 1 .25 200px;
+            width: 25%;
             background-color: #222;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
             padding: 20px;
@@ -79,7 +82,7 @@ const header = `
         }
 
         .tile:hover {
-            transform: scale(1.04);
+            transform: scale(1.025);
         }
     </style>
 
