@@ -11,6 +11,7 @@ const header = `
             padding: 0;
             text-align: center;
             font-family: andy;
+            color: #f2f2f2;
         }
 
         body{
@@ -39,7 +40,7 @@ const header = `
         .navbar ul {
             list-style-type: none;
             overflow: hidden;
-            background-color: #333;
+            background-color: #222;
             position: -webkit-sticky;
             position: sticky;
             top: 0;
