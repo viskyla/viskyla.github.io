@@ -140,8 +140,8 @@ const header = `
         
         .links img{
         	margin:10px;
-        	height: 25px;
-            width: 25px;
+        	height: 40px;
+            width: 40px;
             float:left;
             transition: transform 0.3s ease-in-out;
 		}
@@ -168,16 +168,5 @@ const header = `
             <li><a href="/About">About</a></li>
         </ul>
     </div>
-
-    
-    <section class="links">
-        <a href="https://github.com/viskylas-stu">
-          <img src="/Assets/github.png">
-        </a>
-
-        <a href="https://github.com/viskyla">
-          <img src="/Assets/github.png">
-        </a>
-    </section>
 `;
 document.querySelector("head").insertAdjacentHTML("afterend", header);
