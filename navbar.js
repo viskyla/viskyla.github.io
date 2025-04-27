@@ -71,8 +71,7 @@ const header = `
         }
 
         .tile {
-            flex: 1 .25 200px;
-            width: 25%;
+            width: 400;
             background-color: #222;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
             padding: 20px;
@@ -82,7 +81,7 @@ const header = `
         }
 
         .tile:hover {
-            transform: scale(1.025);
+            transform: scale(1.04);
         }
     </style>
 
