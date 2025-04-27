@@ -21,7 +21,7 @@ const header = `
             
         .navbar{
             background-color: #000;
-            overflow: hidden;
+            overflow: visible;
         }
 
         .navbar a{
@@ -42,6 +42,7 @@ const header = `
 
         .navbar ul {
             list-style-type: none;
+            overflow: visible;
             background-color: #222;
             position: -webkit-sticky;
             position: sticky;
