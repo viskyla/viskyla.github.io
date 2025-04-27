@@ -16,6 +16,7 @@ const header = `
 
         body{
             padding: 10px;
+            background-color: #555
         }
             
         .navbar{
