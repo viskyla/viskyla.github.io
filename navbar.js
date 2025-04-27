@@ -9,6 +9,8 @@ const header = `
         :root{
         	--primary:#1f1f21ff;
             --secondary:#f2f2f2;
+            --primaryHover:#444;
+            --secondaryHover:#ffffa6;
         }
 
     	*{
@@ -16,7 +18,7 @@ const header = `
             padding: 0;
             text-align: center;
             font-family: andy;
-            color: #f2f2f2;
+            color: var(--secondary);
         }
 
         body{
@@ -34,7 +36,7 @@ const header = `
 
         .navbar a{
             float: left;
-            color: #f2f2f2;
+            color: var(--secondary);
             padding:10px;
             text-align: center;
             height:20px;
@@ -43,16 +45,25 @@ const header = `
             transition: transform 0.3s ease-in-out;
         }
 
+        a{
+            transition: transform 0.3s ease-in-out;
+        }
+
+        a:hover{
+            color: var(--secondaryHover);
+            transform: translateY(2px);
+        }
+
         .navbar a:hover{
-            background-color: #444;
-            color: #ffffa6;
+            background-color: var(--primaryHover);
+            color: var(--secondaryHover);
             transform: translateY(2px);
         }
 
         .navbar ul {
             list-style-type: none;
             overflow: visible;
-            background-color: #0000
+            background-color: #0000;
             top: 0;
         }
 
@@ -81,7 +92,7 @@ const header = `
 
         .tile {
             width: 400;
-            background-color: #222;
+            background-color: var(--primary);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
             padding: 20px;
             border-radius: 10px;
@@ -108,7 +119,7 @@ const header = `
         }
 
         .dropdown-content a{
-        	background-color: #222;
+        	background-color: var(--primary);
         	padding: 10px 16px;
             min-width:160;
         	display:block;
