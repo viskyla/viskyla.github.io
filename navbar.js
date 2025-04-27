@@ -23,7 +23,7 @@ const header = `
             background-color: #222;
             position: -webkit-sticky;
             position: sticky;
-            height: 50px;
+            height: 20px;
             overflow: visible;
         }
 
