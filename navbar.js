@@ -30,7 +30,8 @@ const header = `
         .navbar a{
             float: left;
             color: #f2f2f2;
-            padding:10px;
+            padding-left:10px;
+            padding-right:10px;
             text-align: center;
             height:40px;
             text-decoration: none;
