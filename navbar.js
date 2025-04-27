@@ -16,11 +16,11 @@ const header = `
 
         body{
             padding: 10px;
-            background-color: #555
+            background-color: #333
         }
             
         .navbar{
-            background-color: #333;
+            background-color: #444;
             overflow: hidden;
         }
 
