@@ -128,7 +128,7 @@ const header = `
             <div class="dropdown">
                 <li><a href="/Projects">Projects</a></li>
                 <div class="dropdown-content">
-                    <a href="/Projects.starlight">Starlight</a>
+                    <a href="/Projects/starlight.html">Starlight</a>
                 </div>
             </div>
             <li><a href="/Blog">Blog</a></li>
