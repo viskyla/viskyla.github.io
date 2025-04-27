@@ -64,8 +64,8 @@ const header = `
 
         .tilecontainer {
             padding: 50;
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
             gap: 20px;
         }
 
