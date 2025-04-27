@@ -61,6 +61,26 @@ const header = `
             display: block;
             width: 50%;
         }
+
+        .tilecontainer {
+            padding: 50;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .tile {
+            flex: 1 .5 200px;
+            background-color: #222;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .tile:hover {
+            transform: scale(1.05);
+        }
     </style>
 
     <title>Viskyla</title>
