@@ -37,7 +37,7 @@ const header = `
         .navbar a:hover{
             background-color: #444;
             color: #ffffa6;
-            transform: skeyY(20deg);
+            transform: translateY(10px);
         }
 
         .navbar ul {
