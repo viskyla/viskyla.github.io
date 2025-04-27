@@ -37,7 +37,7 @@ const header = `
         .navbar a:hover{
             background-color: #444;
             color: #ffffa6;
-            transform: translateY(10px);
+            transform: translateY(2px);
         }
 
         .navbar ul {
