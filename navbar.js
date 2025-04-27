@@ -79,7 +79,7 @@ const header = `
         }
 
         .tile:hover {
-            transform: scale(1.025);
+            transform: scale(1.04);
         }
     </style>
 
