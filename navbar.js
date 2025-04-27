@@ -20,8 +20,10 @@ const header = `
         }
             
         .navbar{
-            background-color: #000;
-            overflow: visible;
+            background-color: #222;
+            position: -webkit-sticky;
+            position: sticky;
+            overflow: hidden;
         }
 
         .navbar a{
@@ -43,9 +45,7 @@ const header = `
         .navbar ul {
             list-style-type: none;
             overflow: visible;
-            background-color: #222;
-            position: -webkit-sticky;
-            position: sticky;
+            background-color: #0000
             top: 0;
         }
 
