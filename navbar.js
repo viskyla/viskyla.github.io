@@ -87,6 +87,35 @@ const header = `
         .tile:hover {
             transform: scale(1.04);
         }
+
+        .dropdown{
+            position:relative;
+            float: left;
+            display:inline-block;
+        }
+
+        .dropdown-content{
+        	margin-top:40px;
+            display:none;
+            position:absolute;
+            min-width:160;
+            z-index:1;
+        }
+
+        .dropdown-content a{
+        	background-color: #222;
+        	padding: 10px 16px;
+            min-width:160;
+        	display:block;
+        }
+        
+        .dropdown-content a:hover{
+			transform: none;
+        }
+        
+        .dropdown:hover .dropdown-content{
+            display:block;
+        }
     </style>
 
     <title>Viskyla</title>
@@ -96,7 +125,12 @@ const header = `
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/Portfolio">Portfolio</a></li>
-            <li><a href="/Projects">Projects</a></li>
+            <div class="dropdown">
+                <li><a href="/Projects">Projects</a></li>
+                <div class="dropdown-content">
+                    <a href="/Projects.starlight">Starlight</a>
+                </div>
+            </div>
             <li><a href="/Blog">Blog</a></li>
             <li><a href="/About">About</a></li>
         </ul>
