@@ -16,7 +16,7 @@ const header = `
 
         body{
             padding: 10px;
-            background-color: #222
+            background-color: #112
         }
             
         .navbar{
@@ -41,7 +41,7 @@ const header = `
         .navbar ul {
             list-style-type: none;
             overflow: hidden;
-            background-color: #333;
+            background-color: #222;
             position: -webkit-sticky;
             position: sticky;
             top: 0;
