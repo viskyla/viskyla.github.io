@@ -16,11 +16,11 @@ const header = `
 
         body{
             padding: 10px;
-            background-color: #333
+            background-color: #222
         }
             
         .navbar{
-            background-color: #444;
+            background-color: #000;
             overflow: hidden;
         }
 
@@ -41,7 +41,7 @@ const header = `
         .navbar ul {
             list-style-type: none;
             overflow: hidden;
-            background-color: #222;
+            background-color: #333;
             position: -webkit-sticky;
             position: sticky;
             top: 0;
