@@ -139,7 +139,7 @@ const header = `
         }
         
         .links img{
-        	margin:10px;
+        	margin:2px;
         	height: 40px;
             width: 40px;
             float:left;
