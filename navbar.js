@@ -6,6 +6,11 @@ const header = `
             src: url(/ANDYB.TTF);
         }
 
+        :root{
+            --primary:#0f0f11ff
+            --secondary:#1f1f21ff
+        }
+
     	*{
         	margin: 0;
             padding: 0;
@@ -16,11 +21,11 @@ const header = `
 
         body{
             padding: 10px;
-            background-color: #0f0f11ff
+            background-color:var(--primary);
         }
             
         .navbar{
-            background-color: #222;
+            background-color: var(--secondary);
             position: -webkit-sticky;
             position: sticky;
             height: 40px;
