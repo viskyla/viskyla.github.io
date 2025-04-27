@@ -65,7 +65,7 @@ const header = `
         .tilecontainer {
             padding: 50;
             display: grid;
-            grid-template-columns: auto auto auto auto;
+            grid-template-columns: 25% 25% 25% 25%;
             gap: 20px;
         }
 
