@@ -150,7 +150,9 @@ const header = `
             transform: scale(1.1);
         }
     </style>
+`;
 
+const mainSite = `
     <title>Viskyla</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
@@ -169,4 +171,21 @@ const header = `
         </ul>
     </div>
 `;
-document.querySelector("head").insertAdjacentHTML("afterend", header);
+
+const gdpsSite = `
+    <title>ViskylaGDPS</title>
+    <link rel="icon" type="image/x-icon" href="https://viskyla.com/favicon.ico">
+
+    <div class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/Tools">Tools</a></li>
+        </ul>
+    </div>
+`;
+
+if(window.location.hostname == "gdps.viskyla.com"){
+    document.querySelector("head").insertAdjacentHTML("afterend", header+gdpsSite);
+}else{
+    document.querySelector("head").insertAdjacentHTML("afterend", header+mainSite);
+}
