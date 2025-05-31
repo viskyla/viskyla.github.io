@@ -3,7 +3,7 @@ const header = `
 
         @font-face {
             font-family: andy;
-            src: url(/ANDYB.TTF);
+            src: url(https://viskyla.com/ANDYB.TTF);
         }
         
         :root{
