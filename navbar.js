@@ -179,7 +179,8 @@ const gdpsSite = `
     <div class="navbar">
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/Tools">Tools</a></li>
+            <li><a href="/tools">Tools</a></li>
+            <li><a href="https://viskyla.com">Main Site</a></li>
         </ul>
     </div>
 `;
