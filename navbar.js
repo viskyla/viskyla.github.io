@@ -164,9 +164,11 @@ const mainSite = `
                 <li><a href="/Projects">Projects</a></li>
                 <div class="dropdown-content">
                     <a href="/Projects/starlight.html">Starlight</a>
+                    <a href="https://gdps.viskyla.com">ViskylaGDPS</a>
                 </div>
             </div>
             <li><a href="/Blog">Blog</a></li>
+            <li><a href="https://gdps.viskyla.com">ViGDPS</a></li>
             <li><a href="/About">About</a></li>
         </ul>
     </div>
