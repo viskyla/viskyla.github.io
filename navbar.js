@@ -168,7 +168,7 @@ const mainSite = `
                 </div>
             </div>
             <li><a href="/Blog">Blog</a></li>
-            <li><a href="https://gdps.viskyla.com">ViskylaGDPS</a></li>
+            <li><a href="https://gdps.viskyla.com/dashboard">ViskylaGDPS</a></li>
             <li><a href="/About">About</a></li>
         </ul>
     </div>
