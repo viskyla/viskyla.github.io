@@ -164,7 +164,7 @@ const mainSite = `
                 <li><a href="/Projects">Projects</a></li>
                 <div class="dropdown-content">
                     <a href="/Projects/starlight.html">Starlight</a>
-                    <a href="https://gdps.viskyla.com">ViskylaGDPS</a>
+                    <a href="https://gdps.viskyla.com/dashboard">ViskylaGDPS</a>
                 </div>
             </div>
             <li><a href="/Blog">Blog</a></li>
@@ -181,7 +181,7 @@ const gdpsSite = `
     <div class="navbar">
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/tools">Tools</a></li>
+            <li><a href="/dashboard">Dashboard</a></li>
             <li><a href="https://viskyla.net">Main Site</a></li>
         </ul>
     </div>
