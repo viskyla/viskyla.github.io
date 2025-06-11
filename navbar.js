@@ -3,7 +3,7 @@ const header = `
 
         @font-face {
             font-family: andy;
-            src: url(https://viskyla.com/ANDYB.TTF);
+            src: url(https://viskyla.net/ANDYB.TTF);
         }
         
         :root{
@@ -182,7 +182,7 @@ const gdpsSite = `
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/tools">Tools</a></li>
-            <li><a href="https://viskyla.com">Main Site</a></li>
+            <li><a href="https://viskyla.net">Main Site</a></li>
         </ul>
     </div>
 `;
