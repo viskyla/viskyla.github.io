@@ -47,7 +47,6 @@ body{
 
 #container a{
     color: var(--link-colour);
-    margin: 0 auto;
 }
 
 .topbar img{
