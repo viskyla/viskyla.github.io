@@ -29,7 +29,6 @@ body{
     background-image:var(--background-img);
     color:var(--text-colour);
     background-attachment: fixed;
-    min-height: 100%;
 }
 .topbar{
     background-image:var(--banner);
@@ -56,6 +55,7 @@ body{
 }
 #flex{
     display: flex;
+    min-height: max-content;
     max-width: 850px;
 }
 aside{
