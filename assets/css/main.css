@@ -61,7 +61,7 @@ body{
 aside{
     width: 30%;
     margin-left: var(--content-spacing);
-    margin-left: var(--border);
+    border-left: var(--border);
     background-color: var(--background);
 }
 .title, .sidebar-title{
