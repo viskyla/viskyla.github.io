@@ -16,7 +16,7 @@
     --text-colour: white;
     --link-colour:var(--accent-1);
     --border:1px solid black;
-    --arrows:url("https://goblin-heart.net/sadgrl/images/arrow.png");
+    --arrows:url("/assets/images/arrow.png");
 }
 
 html,
