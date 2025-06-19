@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "FreePixel";
+    src: url("https://sadhost.neocities.org/fonts/FreePixel.ttf") format("truetype");
+}
+
+:root {
+    --background: #0E191A;
+    --main-colour: #7107AF;
+    --main-colour-dark: #441261;
+    --accent-1: #B5E61D;
+    --accent-2: #EB53D3;
+    --content-spacing:5px;
+    --background-img:url("/assets/images/azulestrellas.gif");
+    --banner:url("/assets/images/banner.png");
+    --titleBars:url("/assets/images/bar.png");
+    --text-colour: white;
+    --link-colour:var(--accent-1);
+    --border:1px solid black;
+    --arrows:url("https://goblin-heart.net/sadgrl/images/arrow.png");
+}
+
+html,
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "FreePixel";
+}
+body{
+    background-image:var(--background-img);
+    color:var(--text-colour);
+    background-attachment: fixed;
+}
+.topbar{
+    background-image:var(--banner);
+    height:150px;
+    margin-bottom:var(--content-spacing);
+    border:var(--border);
+}
+#container,
+.topbar img{
+    max-width:850px;
+    margin:0 auto;
+}
+#container a{
+    color: var(--link-colour);
+    margin: 0 auto;
+}
+.topbar img{
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+#container{
+    border-top: none;
+}
+#flex{
+    display: flex;
+    max-width: 850px;
+}
+aside{
+    width: 30%;
+    margin-left: var(--content-spacing);
+    margin-left: var(--border);
+    background-color: var(--background);
+}
+.title, .sidebar-title{
+    background-image: var(--titleBars);
+    font-weight: bold;
+    border:var(--border);
+    font-size: 20px;
+}
+main{
+    width: 74%;
+    background-color: var(--background);
+}
+nav{
+    position: sticky;
+    top:20px;
+}
+nav ul{
+    list-style-image:var(--arrows);
+    margin-left: 0;
+    padding-left: 30px;
+}
+nav ul li a{
+    color:var(--accent-1);
+}
+.content{
+    padding:25px;
+}
+footer{
+    border:var(--border);
+    height:25px;
+    margin-top:var(--content-spacing);
+    background-image: var(--titleBars);
+    text-align: center;
+}
