@@ -55,7 +55,7 @@ body{
 }
 #flex{
     display: flex;
-    min-height: max-content;
+    min-height: 100%;
     max-width: 850px;
 }
 aside{
