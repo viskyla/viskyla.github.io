@@ -24,6 +24,10 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: "FreePixel";
+
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 }
 
 body{
@@ -52,12 +56,6 @@ body{
 
 #container p{
     margin: 0 auto;
-}
-
-.topbar img{
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
 }
 
 #container{
