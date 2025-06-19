@@ -47,6 +47,11 @@ body{
 
 #container a{
     color: var(--link-colour);
+    margin: 0 auto;
+}
+
+#container p{
+    margin: 0 auto;
 }
 
 .topbar img{
