@@ -29,6 +29,7 @@ body{
     background-image:var(--background-img);
     color:var(--text-colour);
     background-attachment: fixed;
+    min-height: 100%;
 }
 .topbar{
     background-image:var(--banner);
@@ -52,7 +53,6 @@ body{
 }
 #container{
     border-top: none;
-    min-height: 100%;
 }
 #flex{
     display: flex;
