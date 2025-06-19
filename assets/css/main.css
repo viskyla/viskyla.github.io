@@ -52,6 +52,7 @@ body{
 }
 #container{
     border-top: none;
+    min-height: 100%;
 }
 #flex{
     display: flex;
@@ -114,8 +115,8 @@ h2 {
     color:var(--accent-2);
 }
 #themeDiv {
-position: sticky;
-top: 550px;
+    position: sticky;
+    top: 550px;
 }
 
 @media only screen and (max-width: 640px) {
