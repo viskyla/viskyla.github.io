@@ -176,7 +176,7 @@ const mainSite = `
 
 const gdpsSite = `
     <title>ViskylaGDPS</title>
-    <link rel="icon" type="image/x-icon" href="https://viskyla.com/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://viskyla.net/favicon.ico">
 
     <div class="navbar">
         <ul>
