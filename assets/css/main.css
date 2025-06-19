@@ -103,6 +103,11 @@ nav ul li a{
     padding:25px;
 }
 
+.update{
+    border: 2px dashed var(--main-colour);
+    padding:5px;
+}
+
 footer{
     border:var(--border);
     height:25px;
