@@ -40,7 +40,6 @@ body{
     background-image:var(--banner);
     height:150px;
     margin-bottom:var(--content-spacing);
-    border:var(--border);
 }
 
 #container,
