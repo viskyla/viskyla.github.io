@@ -75,7 +75,7 @@ aside{
 }
 
 aside marquee{
-    position:absolute;
+    position:relative;
     bottom:0;
 }
 
