@@ -36,6 +36,10 @@ body{
     color:var(--text-colour);
     background-attachment: fixed;
 }
+ul{
+    list-style-image:var(--arrows);
+    padding-left: 12px;
+}
 
 .topbar{
     background-image:var(--banner);
