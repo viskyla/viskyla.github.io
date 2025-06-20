@@ -94,6 +94,7 @@ main{
 
 main > .content:last-of-type{
     flex-grow: 1;
+    bottom:0px;
 }
 
 nav{
