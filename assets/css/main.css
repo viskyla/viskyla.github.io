@@ -36,8 +36,9 @@ body{
     color:var(--text-colour);
     background-attachment: fixed;
 }
+
 ul{
-    list-style-image:var(--arrows);
+    list-style-image:var(--dot);
     padding-left: 12px;
 }
 
