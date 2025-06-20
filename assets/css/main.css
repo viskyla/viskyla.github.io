@@ -136,6 +136,8 @@ content:last-of-type{
 }
 
 #navi{
+    position: sticky;
+    position: -webkit-sticky;
     padding:0;
     flex:1;
     flex-grow:1;
