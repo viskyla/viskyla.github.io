@@ -85,14 +85,12 @@ aside marquee{
 .title, .sidebar-title{
     background-image: var(--titleBars);
     font-weight: bold;
-    margin-top: var(--content-spacing);
     border:var(--border);
     font-size: 20px;
 }
 
 main{
     width: 74%;
-    background-color: var(--background);
 }
 
 nav{
@@ -117,6 +115,7 @@ nav marquee{
 }
 
 .content{
+    background-color: var(--background);
     padding:15px;
     padding-top:10px;
 }
