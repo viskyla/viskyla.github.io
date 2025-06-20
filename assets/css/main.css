@@ -69,8 +69,6 @@ body{
 
 aside{
     width: 30%;
-    flex-direction: column;
-    justify-content: space-between;
     margin-left: var(--content-spacing);
     border-left: var(--border);
     background-color: var(--background);
@@ -101,6 +99,12 @@ nav ul{
 
 nav ul li a{
     color:var(--accent-1);
+}
+
+nav marquee{
+    position:absolute;
+    top:auto;
+    bottom:0px;
 }
 
 .content{
