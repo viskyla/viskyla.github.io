@@ -115,7 +115,7 @@ nav marquee{
     padding:15px;
     flex:1;
     flex-grow:1;
-    margin-bottom:auto;
+    padding-bottom:auto;
     padding-top:10px;
     border:var(--border);
 }
