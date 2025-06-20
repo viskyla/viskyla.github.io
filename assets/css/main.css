@@ -68,10 +68,6 @@ body{
 }
 
 aside{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
     width: 30%;
     margin-left: var(--content-spacing);
 }
@@ -118,6 +114,12 @@ nav marquee{
     padding:15px;
     padding-top:10px;
     border:var(--border);
+}
+
+#navi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .update{
