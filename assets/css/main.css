@@ -69,11 +69,8 @@ body{
 
 aside{
     width: 30%;
+    position:relative;
     margin-left: var(--content-spacing);
-}
-
-aside marquee{
-    margin-top: auto;
 }
 
 .title, .sidebar-title{
