@@ -145,7 +145,7 @@ content:last-of-type{
 }
 
 .update{
-    border: 2px dashed var(--main-colour);
+    border:2px dashed var(--main-colour);
     margin:5px;
     padding:5px;
 }
