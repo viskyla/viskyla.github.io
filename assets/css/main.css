@@ -74,6 +74,7 @@ aside{
 
     width: 30%;
     margin-left: var(--content-spacing);
+    background-color: var(--background);
 }
 
 aside marquee{
@@ -107,13 +108,13 @@ nav ul li a{
     color:var(--accent-1);
 }
 
-aside marquee{
+nav marquee{
     position:absolute;
     top:auto;
     bottom:0px;
 }
 
-.content,nav{
+.content{
     background-color: var(--background);
     padding:15px;
     padding-top:10px;
@@ -142,16 +143,8 @@ button {
 th {
     color:var(--accent-2);
 }
-#linkNum {
-    color:var(--accent-2);
-    font-weight:bold;
-}
 h2 {
     color:var(--accent-2);
-}
-#themeDiv {
-    position: sticky;
-    top: 550px;
 }
 
 @media only screen and (max-width: 640px) {
