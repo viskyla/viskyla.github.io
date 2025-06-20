@@ -74,6 +74,11 @@ aside{
     background-color: var(--background);
 }
 
+aside marquee{
+    position:absolute;
+    bottom:0;
+}
+
 .title, .sidebar-title{
     background-image: var(--titleBars);
     font-weight: bold;
@@ -99,11 +104,6 @@ nav ul{
 
 nav ul li a{
     color:var(--accent-1);
-}
-
-marquee{
-    position:absolute;
-    bottom:0;
 }
 
 .content{
