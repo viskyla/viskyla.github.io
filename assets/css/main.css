@@ -100,6 +100,7 @@ nav{
 
 nav ul{
     list-style-image:var(--arrows);
+    margin: 0;
     margin-left: 0;
     padding-left: 30px;
 }
