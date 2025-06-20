@@ -36,10 +36,6 @@ body{
     background-attachment: fixed;
 }
 
-marquee{
-    margin-top:auto;
-}
-
 .topbar{
     background-image:var(--banner);
     height:150px;
@@ -102,6 +98,11 @@ nav ul{
 
 nav ul li a{
     color:var(--accent-1);
+}
+
+nav marquee{
+    position:absolute;
+    bottom:0px;
 }
 
 .content{
