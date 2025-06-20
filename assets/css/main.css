@@ -117,7 +117,10 @@ nav marquee{
 }
 
 #navi{
-    height: max-content;
+    position:absolute;
+    top:auto;
+    bottom:0;
+    width: 100%;
     padding:0;
     display: flex;
     flex-direction: column;
