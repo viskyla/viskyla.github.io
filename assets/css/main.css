@@ -36,6 +36,10 @@ body{
     background-attachment: fixed;
 }
 
+marquee{
+    margin-top:auto;
+}
+
 .topbar{
     background-image:var(--banner);
     height:150px;
