@@ -92,9 +92,8 @@ main{
     height:100%
 }
 
-content:last-of-type(){
+content:last-of-type{
     flex-grow: 1;
-    bottom:0px;
 }
 
 nav{
