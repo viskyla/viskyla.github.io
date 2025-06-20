@@ -113,7 +113,7 @@ nav marquee{
     bottom:0px;
 }
 
-.content{
+.content,nav{
     background-color: var(--background);
     padding:15px;
     padding-top:10px;
