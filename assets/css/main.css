@@ -92,7 +92,7 @@ main{
     height:100%
 }
 
-main > .content:last-of-type{
+content:last-of-type(){
     flex-grow: 1;
     bottom:0px;
 }
@@ -118,7 +118,7 @@ nav marquee{
     bottom:0px;
 }
 
-.content,#navi{
+content,#navi{
     background-color: var(--background);
     padding:15px;
     padding-top:10px;
