@@ -107,7 +107,7 @@ nav ul li a{
     color:var(--accent-1);
 }
 
-nav marquee{
+aside marquee{
     position:absolute;
     top:auto;
     bottom:0px;
