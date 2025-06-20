@@ -68,6 +68,10 @@ body{
 }
 
 aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
     width: 30%;
     margin-left: var(--content-spacing);
     border-left: var(--border);
