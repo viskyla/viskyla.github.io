@@ -114,6 +114,7 @@ nav marquee{
 .content,#navi{
     background-color: var(--background);
     padding:15px;
+    flex:1;
     flex-grow:1;
     padding-top:10px;
     border:var(--border);
