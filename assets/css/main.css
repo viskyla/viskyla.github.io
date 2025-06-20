@@ -114,13 +114,13 @@ nav marquee{
 .content,#navi{
     background-color: var(--background);
     padding:15px;
+    flex-grow:1;
     padding-top:10px;
     border:var(--border);
 }
 
 #navi{
     padding:0;
-    flex-grow:1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
