@@ -92,10 +92,6 @@ main{
     height:100%
 }
 
-content:last-of-type{
-    flex-grow: 1;
-}
-
 nav{
     position: sticky;
 }
@@ -117,11 +113,15 @@ nav marquee{
     bottom:0px;
 }
 
-content,#navi{
+content,content:last-of-type,#navi{
     background-color: var(--background);
     padding:15px;
     padding-top:10px;
     border:var(--border);
+}
+
+content:last-of-type{
+    flex-grow: 1;
 }
 
 #navi{
