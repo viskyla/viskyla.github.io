@@ -75,8 +75,8 @@ aside{
 }
 
 aside marquee{
-    position:relative;
-    bottom:0;
+    position:absolute;
+    bottom:0%;
 }
 
 .title, .sidebar-title{
