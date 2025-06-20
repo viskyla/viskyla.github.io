@@ -71,6 +71,10 @@ aside{
     width: 30%;
     position:relative;
     margin-left: var(--content-spacing);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .title, .sidebar-title{
@@ -114,10 +118,6 @@ nav marquee{
 }
 
 #navi{
-    position:absolute;
-    top:auto;
-    bottom:0;
-    width: 100%;
     padding:0;
     display: flex;
     flex-direction: column;
