@@ -17,7 +17,6 @@
     --link-colour:var(--accent-1);
     --border:1px solid black;
     --arrows:url("/assets/images/arrow.png");
-    --dot:url("/assets/images/dot.png");
 }
 
 html,
@@ -69,33 +68,30 @@ body{
 
 aside{
     width: 30%;
-    position:relative;
     margin-left: var(--content-spacing);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border-left: var(--border);
+    background-color: var(--background);
 }
 
 .title, .sidebar-title{
     background-image: var(--titleBars);
     font-weight: bold;
-    margin-top:var(--content-spacing);
     border:var(--border);
     font-size: 20px;
 }
 
 main{
     width: 74%;
+    background-color: var(--background);
 }
 
 nav{
     position: sticky;
+    top:20px;
 }
 
 nav ul{
     list-style-image:var(--arrows);
-    margin-top: 10px;
     margin-left: 0;
     padding-left: 30px;
 }
@@ -104,26 +100,9 @@ nav ul li a{
     color:var(--accent-1);
 }
 
-nav marquee{
-    position:absolute;
-    top:auto;
-    bottom:0px;
-}
-
-.content,#navi{
-    background-color: var(--background);
+.content{
     padding:15px;
     padding-top:10px;
-    border:var(--border);
-}
-
-#navi{
-    padding:0;
-    flex:1;
-    flex-grow:1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .update{
@@ -148,8 +127,16 @@ button {
 th {
     color:var(--accent-2);
 }
+#linkNum {
+    color:var(--accent-2);
+    font-weight:bold;
+}
 h2 {
     color:var(--accent-2);
+}
+#themeDiv {
+    position: sticky;
+    top: 550px;
 }
 
 @media only screen and (max-width: 640px) {
