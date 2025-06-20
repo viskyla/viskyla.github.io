@@ -122,7 +122,6 @@ nav marquee{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    bottom:0;
 }
 
 .update{
