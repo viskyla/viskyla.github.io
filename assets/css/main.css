@@ -37,14 +37,6 @@ body{
     background-attachment: fixed;
 }
 
-ul{
-    list-style-image:var(--dot);
-}
-
-li{
-    list-style-image:var(--dot);
-}
-
 .topbar{
     background-image:var(--banner);
     height:150px;
@@ -109,7 +101,7 @@ nav ul li a{
     color:var(--accent-1);
 }
 
-aside marquee{
+marquee{
     position:absolute;
     top:auto;
     bottom:0px;
