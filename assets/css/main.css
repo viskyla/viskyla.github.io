@@ -37,6 +37,14 @@ body{
     background-attachment: fixed;
 }
 
+ul{
+    list-style-image:var(--dot);
+}
+
+li{
+    list-style-image:var(--dot);
+}
+
 .topbar{
     background-image:var(--banner);
     height:150px;
@@ -65,10 +73,6 @@ body{
 #flex{
     display: flex;
     max-width: 850px;
-}
-
-ul{
-    list-style-image:var(--dot);
 }
 
 aside{
