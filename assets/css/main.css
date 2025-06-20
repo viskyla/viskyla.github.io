@@ -85,6 +85,7 @@ aside marquee{
 .title, .sidebar-title{
     background-image: var(--titleBars);
     font-weight: bold;
+    margin-top:var(--content-spacing);
     border:var(--border);
     font-size: 20px;
 }
