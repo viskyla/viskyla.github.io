@@ -118,10 +118,10 @@ nav marquee{
 
 #navi{
     padding:0;
-    position:absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: inherit;
 }
 
 .update{
