@@ -69,14 +69,12 @@ body{
 
 aside{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: var(--content-spacing);
     border-left: var(--border);
     background-color: var(--background);
-}
-
-aside marquee{
-    position:absolute;
-    bottom:0%;
 }
 
 .title, .sidebar-title{
