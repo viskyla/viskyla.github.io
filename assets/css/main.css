@@ -98,6 +98,7 @@ main{
 
 nav{
     position: sticky;
+    padding-right: 10px;
 }
 
 nav ul{
