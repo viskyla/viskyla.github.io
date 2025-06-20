@@ -144,9 +144,9 @@ content:last-of-type{
     justify-content: space-between;
 }
 
-div.update{
+.update{
     border:2px dashed var(--main-colour);
-    margin:5px;
+    margin:5px !important;
     padding:5px;
 }
 
