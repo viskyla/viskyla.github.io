@@ -121,7 +121,7 @@ nav marquee{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: inherit;
+    height: inherit;
 }
 
 .update{
