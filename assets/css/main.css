@@ -102,6 +102,7 @@ nav ul li a{
 
 nav marquee{
     position:absolute;
+    top:auto;
     bottom:0px;
 }
 
