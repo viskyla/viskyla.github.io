@@ -17,6 +17,7 @@
     --link-colour:var(--accent-1);
     --border:1px solid black;
     --arrows:url("/assets/images/arrow.png");
+    --dot:url("/assets/images/dot.png");
 }
 
 html,
@@ -64,6 +65,10 @@ body{
 #flex{
     display: flex;
     max-width: 850px;
+}
+
+ul{
+    list-style-image:var(--dot);
 }
 
 aside{
