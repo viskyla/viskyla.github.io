@@ -77,6 +77,12 @@ aside{
     background-color: var(--background);
 }
 
+aside marquee {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
 .title, .sidebar-title{
     background-image: var(--titleBars);
     font-weight: bold;
