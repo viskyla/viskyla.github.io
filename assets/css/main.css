@@ -74,8 +74,6 @@ aside{
 
     width: 30%;
     margin-left: var(--content-spacing);
-    border-left: var(--border);
-    background-color: var(--background);
 }
 
 aside marquee{
@@ -119,6 +117,7 @@ nav marquee{
     background-color: var(--background);
     padding:15px;
     padding-top:10px;
+    border:var(--border);
 }
 
 .update{
