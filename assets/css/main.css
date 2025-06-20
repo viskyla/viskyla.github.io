@@ -146,7 +146,7 @@ content:last-of-type{
 
 div.update{
     border:2px dashed var(--main-colour);
-    margin:10px;
+    margin:5px;
     padding:5px;
 }
 
