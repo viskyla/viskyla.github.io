@@ -63,6 +63,7 @@ content p.update img{
 .marquee-track {
     display:inline-flex;
     width:max-content;
+    flex-shrink:0;
     animation:marquee-scroll 10s linear infinite;
 }
 
