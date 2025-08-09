@@ -138,6 +138,7 @@ main{
 nav{
     position: sticky;
     padding-right: 10px;
+    overflow-x: hidden;
 }
 
 nav ul{
