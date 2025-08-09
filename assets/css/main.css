@@ -71,6 +71,12 @@ content p.update img{
     display:inline-block;
 }
 
+nav .marquee{
+    position:absolute;
+    top:auto;
+    bottom:0px;
+}
+
 @keyframes marquee-scroll {
     0%   {transform:translateX(0);}
     100% {transform:translateX(-50%);}
@@ -151,12 +157,6 @@ nav ul{
 
 nav ul li a{
     color:var(--accent-1);
-}
-
-nav .marquee{
-    position:absolute;
-    top:auto;
-    bottom:0px;
 }
 
 content,#navi{
