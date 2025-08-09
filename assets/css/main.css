@@ -42,7 +42,7 @@ ul{
     padding-left: 12px;
 }
 
-img{
+content,img{
     width:100%;
     height:auto;
 }
