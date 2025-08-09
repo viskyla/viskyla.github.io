@@ -60,13 +60,13 @@ content p.update img{
 }
 
 .marquee-track {
-    display:flex;
+    display:inline-flex;
+    width:max-content;
     animation:marquee-scroll 10s linear infinite;
 }
 
-.marquee-copy {
-    display:flex;
-    flex-shrink:0;
+.marquee-track a {
+    display:inline-block;
 }
 
 @keyframes scroll {
