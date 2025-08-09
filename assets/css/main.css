@@ -48,6 +48,12 @@ content p.update img{
     height:auto;
 }
 
+content img{
+    width:100%;
+    padding-top:3px;
+    height:auto;
+}
+
 .marquee img{
     width:auto;
     height:auto;
