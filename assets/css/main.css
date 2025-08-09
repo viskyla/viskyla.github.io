@@ -50,6 +50,7 @@ content p.update img{
 .marquee img{
     width:auto;
     height:auto;
+    padding-top:3px;
 }
 
 .marquee{
