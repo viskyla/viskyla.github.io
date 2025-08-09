@@ -50,13 +50,13 @@ content p.update img{
 .marquee img{
     width:auto;
     height:auto;
-    height: 31px;
 }
 
 .marquee{
     position: relative;
     overflow:hidden;
     white-space:nowrap;
+    height: 31px;
 }
 
 .marquee-track {
