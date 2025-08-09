@@ -53,6 +53,7 @@ content p.update img{
 }
 
 .marquee{
+    width:auto;
     position: relative;
     overflow:hidden;
     white-space:nowrap;
