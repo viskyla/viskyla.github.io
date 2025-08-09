@@ -44,13 +44,13 @@ ul{
 
 content p.update img{
     width:100%;
+    padding-top:3px;
     height:auto;
 }
 
 .marquee img{
     width:auto;
     height:auto;
-    padding-top:3px;
 }
 
 .marquee{
