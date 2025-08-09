@@ -52,23 +52,27 @@ marquee img{
     height:auto;
 }
 
-.marquee {
-    overflow: hidden;
-    white-space: nowrap;
+.marquee{
+    overflow:hidden;
+    white-space:nowrap;
 }
 
-.marquee-inner {
-    display: inline-block;
-    animation: marquee 10s linear infinite;
+.marquee-inner{
+    display:inline-block;
+    animation:marquee 10s linear infinite;
 }
 
-.marquee-inner img {
-    display: inline-block;
+.marquee-inner a{
+    display:inline-block;
 }
 
-@keyframes marquee {
-    0%   { transform: translateX(0); }
-    100% { transform: translateX(-50%); } /* Move by half since it's doubled */
+@keyframes marquee{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
 }
 
 
