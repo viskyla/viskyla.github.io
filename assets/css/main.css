@@ -52,7 +52,7 @@ marquee img{
     height:auto;
 }
 
-marquee {
+.marquee {
     overflow: hidden;
     white-space: nowrap;
 }
