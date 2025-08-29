@@ -36,6 +36,10 @@ h1{
     margin-bottom:0;
 }
 
+.topHeader{
+    margin-top:0;
+}
+
 body{
     background-image:var(--background-img);
     color:var(--text-colour);
