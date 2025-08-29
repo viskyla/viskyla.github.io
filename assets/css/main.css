@@ -31,6 +31,10 @@ body{
     image-rendering: crisp-edges;
 }
 
+h1{
+    margin:0;
+}
+
 body{
     background-image:var(--background-img);
     color:var(--text-colour);
