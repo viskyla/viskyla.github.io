@@ -206,8 +206,7 @@ content:last-of-type{
 .update{
     border:2px dashed var(--main-colour);
     margin:5px !important;
-    padding:5px;
-    padding-left: 10px;
+    padding:10px;
 }
 
 footer{
