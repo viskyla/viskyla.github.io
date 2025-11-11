@@ -206,6 +206,7 @@ content:last-of-type{
 .update{
     border:2px dashed var(--main-colour);
     margin:5px !important;
+    margin-top: 10px;
     padding:10px;
 }
 
