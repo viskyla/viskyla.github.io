@@ -207,6 +207,7 @@ content:last-of-type{
     border:2px dashed var(--main-colour);
     margin:5px !important;
     padding:5px;
+    padding-left: 10px;
 }
 
 footer{
@@ -227,6 +228,8 @@ th {
     color:var(--accent-2);
 }
 h2 {
+    margin-top:5px;
+    margin-bottom:5px;
     color:var(--accent-2);
 }
 
