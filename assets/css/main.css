@@ -40,10 +40,6 @@ h1{
     margin-top:0;
 }
 
-div{
-    display: inline;
-}
-
 body{
     background-image:var(--background-img);
     color:var(--text-colour);
