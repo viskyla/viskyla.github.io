@@ -1,7 +1,7 @@
 .famfamfam-silk {
   background: url('famfamfam-silk.png' ) no-repeat;
   background-size: 512px 512px;
-  display: inline;
+  display: inline-block;
 }
 
 .famfamfam-silk.keyboard {
@@ -6007,7 +6007,7 @@
 .famfamfam-flags {
   background: url( 'famfamfam-flags.png' ) no-repeat;
   background-size: 224px 199px;
-  display: inline;
+  display: inline-block;
 }
 
 .famfamfam-flags.me {
